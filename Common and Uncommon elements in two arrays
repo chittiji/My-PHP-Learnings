@@ -1,0 +1,8 @@
+<?php
+$var1=array("Vodka","Redwine","Breezer","Signiture");
+$var2=array("Vodka","Redwine");
+$common=array_intersect($var1,$var2);
+$uncommon=array_diff($var1,$var2);
+print_r($common);
+print_r($uncommon);
+?>
